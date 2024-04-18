@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap');
+body{
+    font-family: 'Playpen sans';
+    background-color: blueviolet;
+    justify-content: center;
+}
+.button{
+    font-size: 20px;
+    margin: 0 3px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 50px;
+    height: 60px;
+    color: rgb(210, 210, 210);
+    background-color: rgb(73, 73, 73);
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    font-size: 19.5px;
+    margin: 0;
+    padding: 10px 0;
+    border:2px solid rgb(176, 176, 176) ;
+    border-radius: 10px;
+    cursor: default;
+    height: 60px;
+    color: rgb(236, 236, 236);
+    background-color: rgb(130, 130, 130);
+}
+.head{
+    margin-top: 35px;
+    text-align: center;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.bg{
+    margin-left: 41.5%;
+    margin-right: 41.5%;
+    border-radius: 11px;
+    background-color:rgb(1, 1, 38) ;
+}
+.auto{
+    text-align: center;
+}
+footer{
+    margin-top: 140px;
+    color: rgb(143, 143, 143);
+    background-color:rgb(5, 5, 71);
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+#copyr{
+    cursor: pointer;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(133, 197, 38);
+}
